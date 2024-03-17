@@ -1,0 +1,19 @@
+{
+  "name": "psd-to-png",
+  "version": "1.0.0",
+  "description": "Flatten the PSD and transform into a png file - used for game boy dev",
+  "main": "index.js",
+  "bin": {
+    "psd-to-png": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mateus.digital",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "psd": "^3.4.0",
+    "sharp": "^0.33.2",
+    "yargs": "^17.7.2"
+  }
+}
